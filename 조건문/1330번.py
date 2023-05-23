@@ -1,0 +1,1 @@
+#두 수 비교A, B = list(map(int, input().split()))def compare(x, y):    if x > y:        return print('>')    elif x < y:        return print('<')    else:        return print('==')compare(A,B)
