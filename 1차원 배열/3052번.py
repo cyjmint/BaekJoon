@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 28 18:20:05 2023
-
-@author: cyj
-"""
-
+#import sys
+#input = sys.stdin.readline
+data = []
+for i in range(10):
+    data.append(int(input())%42)
+print(len(set(data)))
