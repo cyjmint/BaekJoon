@@ -9,4 +9,4 @@ for j in range(N):
 for i in range(N):
     for j in range(M):
         S = A[i][j] + B[i][j]
-print(S, end = ' ')
+        print(S, end = ' ')
