@@ -16,7 +16,8 @@ for i in range(N):
     w = input()
     for j in range(len(alp)):
         if alp[j] in w:
-            i = list(filter(lambda x: w[x] == alp[j], range(len(w))))
+            i = list(filter(lambda x: w[x] == alp[j], range(len(w)))) 
+                #filter함수와 lambda 함수를 사용해서 x 출력, x는 해당 알파벳이 w의 어느 인덱스에 있는가
             ind.append(i)
     if all(func(ind[k]) == True for k in range(len(ind))):
         n += 1
