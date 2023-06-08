@@ -17,3 +17,4 @@ result = 0
 for i in range(len(n)):
     result += int(n[i]) * int(N[1])**i
 print(result)
+
