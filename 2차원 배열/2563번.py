@@ -1,0 +1,1 @@
+N = int(input())data = []n = []for i in range(N):    data.append(list(map(int,input().split())))    for j in range(1,11):        for k in range(1,11):            n.append([data[i][0]+j, data[i][1]+k])x = set(map(tuple,n))print(len(x))
