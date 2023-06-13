@@ -1,0 +1,1 @@
+N, K = list(map(int,input().split()))F = []for i in range(1,N+1):    if N%i == 0:        F.append(i)        if len(F) < K:    for i in range(K-len(F)):        F.append(0)print(F[K-1])
