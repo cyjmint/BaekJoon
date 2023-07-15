@@ -9,4 +9,6 @@ while n > 0:
         if num[i] > num[i+1]:
             num[i], num[i+1] = num[i+1], num[i]
     n -= 1
-print(num)
+    
+for i in range(N):
+    print(num[i])
