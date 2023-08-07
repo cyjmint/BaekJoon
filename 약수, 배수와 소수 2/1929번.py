@@ -1,0 +1,1 @@
+M,N = list(map(int,input().split()))l = [0]*(N+1)l[0],l[1] = 1,1for i in range(2,int(N**.5)+1):    if l[i] == 0:        j = i        while i*j <= N:            l[i*j] = 1            j+=1for i in range(M,N+1):    if l[i] == 0:        print(i)
