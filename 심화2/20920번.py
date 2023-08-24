@@ -1,5 +1,4 @@
 from collections import Counter
-
 n,m = map(int,input().split())
 words = [input() for _ in range(n)]
 
