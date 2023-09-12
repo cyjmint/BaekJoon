@@ -24,5 +24,5 @@ else:
 if len(x) != m:
     for _ in range(m-len(x)):
         x.append(c.popleft())
-
+        
 print(*x)
