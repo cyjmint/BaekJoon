@@ -1,7 +1,7 @@
 def lotto(num):
     if nums != sorted(nums):
         return
-    if len(nums) == 6 and nums == sorted(nums):
+    if len(nums) == 6:
         print(*nums)
         return
     for v in num:
