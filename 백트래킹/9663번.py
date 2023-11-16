@@ -18,6 +18,9 @@ def nqueen(i):
     else:
         for j in range(n):
             col[i] = j
+            if i > 0:
+                if abs(col[i-1]-col[i]) < 2:
+                    continue
             if promising(i):
                 nqueen(i+1)
 
