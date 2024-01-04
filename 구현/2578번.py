@@ -21,7 +21,7 @@ dsum.append(ds1)
 dsum.append(ds2)
 
 line = 0 #line : 선이 몇개 그어졌는지
-for i in range(len(call)): #사회자가 부르는 수의 좌표
+for i in range(len(call)): #사회자가 부르는 수의 인덱스
         
         if line >= 3: #빙고가 되었을 때
             print(i) #몇 번째 수인가
